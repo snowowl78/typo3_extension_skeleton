@@ -1,0 +1,41 @@
+{
+   "name": "snowowl78/my-extension",
+   "type": "typo3-cms-extension",
+   "description": "An example extension",
+   "license": "GPL-2.0-or-later",
+   "require": {
+      "php" : "^7.4",
+      "typo3/cms-backend": "^9.5 || ^10.4 || ^11.0",
+      "typo3/cms-core": "^9.5 || ^10.4 || ^11.0"
+   },
+   "authors": {
+      "name": "Thorsten Weber",
+      "role": "Developer",
+      "email": "snowowl78@gmail.com",
+      "homepage": "www.thorsten-weber.eu"
+   },
+   "keywords": [
+      "typo3",
+      "extension"
+   ],
+   "support": {
+      "issues": "https://github.com/snowowl78/my-extension/issues"
+   },
+   "funding": {
+      "type": "other",
+      "url:" : "myfundpage.org/vendorname"
+   },
+   "autoload": {
+      "psr-4": {
+         "Snowowl78\\MyExtension\\": "Classes/"
+      }
+   },
+   "require-dev": {
+      "nimut/testing-framework": "^4.2 || ^5.1"
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "my_extension"
+      }
+   }
+}
